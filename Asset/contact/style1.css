@@ -1,0 +1,29 @@
+.gallary{
+    text-align: center;
+    margin-bottom: 7rem;
+
+}
+.h1{
+    margin-bottom: 3rem;
+    font-family: verdana;
+    text-shadow: 1px 1px 2px red;
+    text-align: center;
+    margin-top: 5rem;
+
+}
+.gallary img{
+    width: 100%;
+    max-height: 140px;
+    transition: 500ms;
+}
+.gallary img:hover{
+    transform: scale(1.1);
+}
+.banner{
+    text-align: center;
+    padding-bottom: 3rem;
+    
+}
+body {
+    background-color: rgb(235, 229, 229);
+}

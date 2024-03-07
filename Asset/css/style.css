@@ -1,0 +1,91 @@
+
+
+.banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.062), rgba(0, 0, 0, 0.185)), url(../image/car4.jpeg);  
+    background-size: cover;
+    padding: 10rem 15rem 10rem 5rem;
+}
+.banner p{
+    color: white;
+    line-height: 25px;
+}
+.banner span{
+    border-radius: 10px;
+    padding: 7px;
+    background-color: white;
+}
+.banner h1{
+    font-size: 3rem;
+    display: inline;
+    color: #e1e1e1;
+    text-shadow: 1px 1px 4px red;
+}
+@media screen and (max-width: 480px) {
+    .banner{
+        padding: 12rem 0rem 9rem 1rem;
+    }
+    .banner h1{
+        font-size: 40px;
+        display: inline;
+        color: #e1e1e1;
+        text-shadow: 1px 1px 4px red;
+    }
+    #apply-now{
+        display: none;
+    }
+    .banner span{
+        background-color: #fff;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+}
+#aboutus{
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    background-color: wheat;
+    padding: 20px;
+}
+#services{
+    margin-bottom: 7rem;
+    text-align: center;
+}
+#services h1{
+    font-family: verdana;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px red ;
+}
+#services img{
+    width: 100px;
+    height: 200px;
+}
+#contact{
+    margin-bottom: 7rem;
+}
+#contact h1{
+    font-family: Verdana;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px red;
+}
+#gallary{
+    text-align: center;
+    margin-bottom: 7rem;
+
+}
+#gallary h1{
+    margin-bottom: 3rem;
+    font-family: verdana;
+    text-shadow: 1px 1px 2px red;
+
+}
+#gallary img{
+    width: 100%;
+    max-height: 140px;
+    transition: 500ms;
+}
+#gallary img:hover{
+    transform: scale(1.1);
+}
+
+
+

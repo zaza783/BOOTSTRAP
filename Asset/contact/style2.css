@@ -1,0 +1,20 @@
+#banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.062), rgba(0, 0, 0, 0.185)), url(../image/agent.jpeg);  
+    background-size: cover;
+    padding: 10rem 15rem 10rem 5rem;
+}
+.contact{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+.cont{
+text-align: center;
+margin-top: 7rem;
+margin-bottom: 7rem;
+font-size: 3rem;
+}
+#export{
+    margin-bottom: 4rem;
+}
